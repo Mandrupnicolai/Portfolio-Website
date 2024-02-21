@@ -1,27 +1,18 @@
 import React from 'react';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
+import {Container, Title, Toolbar, Button } from './styles/app-component-styles';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <header>
-        <h1>My Portfolio</h1>
-      </header>
-      <main>
-        <AboutMe />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
-      <footer>
-        <p>&copy; 2024 My Portfolio</p>
-      </footer>
-    </div>
+    <Container>
+      <Toolbar>
+        <Button>About Me</Button>
+        <Button>Projects</Button>
+        <Button>Skills</Button>
+        <Button>Contact</Button>
+      </Toolbar>
+      <Title>Hello World</Title>
+    </Container>
   );
-}
+};
 
 export default App;
-
