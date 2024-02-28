@@ -1,17 +1,16 @@
-import React from 'react';
-import {Container, Title, Toolbar, Button } from './styles/app-component-styles';
+import Navbar from "./components/NavBar/navbar";
+import Intro from "./components/Intro/intro";
+import Skills from "./components/Skills/skills";
+import Works from "./components/Works/works";
 
 const App = () => {
   return (
-    <Container>
-      <Toolbar>
-        <Button>About Me</Button>
-        <Button>Projects</Button>
-        <Button>Skills</Button>
-        <Button>Contact</Button>
-      </Toolbar>
-      <Title>Hello World</Title>
-    </Container>
+    <div className= 'App'>
+        <Navbar/>
+        <Intro/>
+        <Skills/>
+        <Works/>
+    </div>
   );
 };
 
