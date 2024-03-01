@@ -56,3 +56,37 @@
         padding-right: 2rem;
     }
 }
+
+.active {
+   color: rgb(241, 76, 178);
+   padding-bottom: 0.5rem;
+   border-bottom: 3px solid rgb(241, 76, 178);
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(40, 40, 40);
+}
+
+.mobMenu{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 2rem;
+}
