@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
-import Adobe from '../../assets/Clients/adobe.png';
+import Manova from '../../assets/Clients/cropped-Manova_lilla_logo.png';
+import AAU from '../../assets/Clients/AAU.png';
 import Facebook from '../../assets/Clients/facebook.png';
 import Google from '../../assets/Clients/google.png';
 import Microsoft from '../../assets/Clients/microsoft.png';
@@ -19,8 +20,8 @@ const Contact = () => {
                 Some of the notable companies I have worked with includes:
             </p>
             <div className="clientImgs">
-                <img src={Adobe} alt="" className="clientImg" />
-                <img src={Facebook} alt="" className="clientImg" />
+                <img src={Manova} alt="" className="clientImg" />
+                <img src={AAU} alt="" className="clientImg" />
                 <img src={Google} alt="" className="clientImg" />
                 <img src={Microsoft} alt="" className="clientImg" />
             </div>
