@@ -31,12 +31,27 @@
     max-width: 65rem;
 }
 
+.portfolioBtn{
+    background: transparent;
+    border-radius: 1rem;
+    border: none;
+}
+
 .worksImg{
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
     background: rgb(50, 50, 50);
     border-radius: 1rem;
+}
+
+.worksImg:hover{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    background: rgb(241, 76, 178);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(70, 70, 70);
 }
 
 .worksBtn{

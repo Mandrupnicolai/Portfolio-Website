@@ -2,28 +2,27 @@ import React from 'react'
 import './contact.css'
 import Manova from '../../assets/Clients/cropped-Manova_lilla_logo.png';
 import AAU from '../../assets/Clients/AAU.png';
-import Facebook from '../../assets/Clients/facebook.png';
-import Google from '../../assets/Clients/google.png';
-import Microsoft from '../../assets/Clients/microsoft.png';
+import Educado from '../../assets/Clients/Educado.png';
+import Github from '../../assets/Links/github.png';
 import Instagram from '../../assets/Links/Instagram.png';
 import Linkedin from '../../assets/Links/Linkedin.png';
 import Twitter from '../../assets/Links/twitter.png';
+
 
 
 const Contact = () => {
   return (
     <section id="contactPage">
         <div id="clients">
-            <h1 className="contactPageTitle"> My Clients</h1>
+            <h1 className="contactPageTitle"> My Collaborations</h1>
             <p className="clientDescription">
-                I have had the opportunity to work with a diverse group of companies. 
+                I have had the opportunity to work with a diverse group of companies within my studies. 
                 Some of the notable companies I have worked with includes:
             </p>
             <div className="clientImgs">
                 <img src={Manova} alt="" className="clientImg" />
                 <img src={AAU} alt="" className="clientImg" />
-                <img src={Google} alt="" className="clientImg" />
-                <img src={Microsoft} alt="" className="clientImg" />
+                <img src={Educado} alt="" className="clientImg" />
             </div>
         </div>
         <div id="contact">
@@ -38,7 +37,7 @@ const Contact = () => {
                     <img src={Instagram} alt="Instagram" className="link" />
                     <img src={Linkedin} alt="Linkedin" className="link" />
                     <img src={Twitter} alt="Twitter" className="link" />
-                    <img src={Facebook} alt="Facebook" className="link" />
+                    <img src={Github} alt="Facebook" className="link" />
                 </div>
             </form>
         </div>
