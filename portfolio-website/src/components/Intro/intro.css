@@ -14,10 +14,11 @@
     z-index: -1;
     object-fit: cover;
     height: 75vh;
-    padding-right: 4rem;
+    padding-right: 8rem;
 }
 
 .introContent{
+    margin-left: 10rem;
     height: 100vh;
     width: 100vw;
     padding: 2rem;
